@@ -1,0 +1,33 @@
+@import "../../css/theme.scss";
+
+
+.subTitle {
+    font-weight: 300;
+}
+.header {
+    color: $tertiaryColor;
+    font-size: $h5;
+}
+.title {
+    color: #212121;
+    font-size: $h2;
+    margin: 0.5em 0;
+}
+.content {
+    color: #424242;
+    font-size: $secondaryParagraph;
+}
+@media (min-width: 768px) {
+    .media {
+        height: 597;
+        width: 888px;
+    }
+}
+// .section__joinTogether .section__footer {
+//     margin-bottom: 40px;
+// }
+// @media (min-width: 768px) {
+//     .section__joinTogether .section__footer {
+//         margin-bottom: 0px;
+//     }
+// }

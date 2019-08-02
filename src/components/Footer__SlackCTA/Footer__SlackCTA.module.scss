@@ -1,0 +1,31 @@
+@import "../../css/theme.scss";
+
+
+.slackCTA {
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    padding-bottom: 85px;
+    align-items: center;
+}
+.title {
+    font-size: $h3;
+    color: $baseFontColor;
+}
+.content {
+    font-size: $secondaryParagraph;
+    color: $secondaryColor;
+    max-width: 90%;
+}
+.subTitle {
+    font-weight: $normal;
+    font-size: 14px;
+    color: rgba(43,41,45,0.6);
+}
+.button img {
+    width: 130px;
+}
+.mediaFigure img {
+    height: 250px;
+    width: 250px;
+}

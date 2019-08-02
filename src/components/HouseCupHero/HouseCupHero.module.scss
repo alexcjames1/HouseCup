@@ -1,0 +1,46 @@
+@import "../../css/theme.scss";
+
+/********** HERO CTA CONTENT **********/
+.section {
+    background: url("./images/hero.jpg") no-repeat;
+    background-size: cover;
+    background-size: 100%;
+}
+.title{
+    color: $baseFontColor;
+    font-size: $h1mobile;
+}
+@media (min-width: 992px){
+    .title{
+        font-size: $h1;
+    }
+}
+.content{
+    color: $secondaryColor;
+    font-size: $primaryParagraph;
+    max-width: 75%;
+}
+
+.footer img {
+    width: 130px;
+}
+.HouseCupHero .section__footer .appStoreButton--apple{
+    padding-right: 3px;
+}
+.row {
+    padding-top: 120px;
+}
+.CTA {
+    padding-bottom: 2px;
+}
+@media (min-width: 768px) {
+    .CTA {
+        margin-top: 15px;
+        max-width: 30%;
+    }
+}
+@media (min-width: 991px) {
+    .CTA {
+        margin-top: 15px;
+    }
+}
