@@ -11,7 +11,7 @@ export default class HouseCupHero extends Component {
             <Section className={style.section} size="big">
 
                 <Row>
-                    <Col xs="12" sm="7" className={style.CTA}>
+                    <Col xs="12" sm="8" className={style.CTA}>
                         <div className={style.header}>
                             <h1 className={style.title}>
                                 Team up &amp; award house points.
@@ -27,7 +27,7 @@ export default class HouseCupHero extends Component {
                         </div>
                     </Col>
                 </Row>
-                
+
             </Section>
 
         );

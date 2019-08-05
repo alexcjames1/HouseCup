@@ -11,6 +11,8 @@ export { default as Footer } from './Footer';
 export { default as Footer__legal } from './Footer__legal';
 export { default as Footer__SlackCTA } from './Footer__SlackCTA';
 export { default as Card } from './Card';
+export { default as DownloadModal } from './DownloadModal';
+export { default as Modal } from './Modal';
 
 export { default as JoinTogether } from './JoinTogether';
 

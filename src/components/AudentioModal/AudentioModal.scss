@@ -1,0 +1,94 @@
+@import "../../css/theme.scss";
+
+.download {
+    padding: 40px;
+}
+.header {
+    text-align: center;
+}
+.heading {
+    font-size: $h5;
+    font-weight: $special;
+}
+.lead {
+    font-size: $secondaryParagraph;
+    color: $secondaryColor;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.col {
+    border-style: solid;
+    border-color: #d9d7d7;
+    border-width: .5px;
+    border-radius: 15px;
+    // margin: 0 5px;
+    width: 250px;
+    height: 250px;
+
+}
+.col:hover {
+    border-style: none;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,0.07),
+                0 15px 35px 0 rgba(50,50,93,0.1);
+
+}
+.row {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.icon {
+    color: #fff;
+    height: 50px;
+    width: 50px;
+    box-shadow: 1px 2px 25px 0 rgba(0,0,0,0.05);
+    border-radius: 8px;
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: 0.9375em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -25px;
+    margin-left: 18px;
+}
+.helpIcon {
+    background-color: #F7BC14;
+}
+.getIcon {
+    background-color: #84C5B4;
+}
+.contributeIcon {
+    background-color: #337B9C;
+}
+.shareIcon {
+    background-color: #374365;
+}
+.buttonHelp {
+    color: #F7BC14;
+}
+.buttonGet {
+    color: #84C5B4;
+}
+.buttonContribute {
+    color: #337B9C;
+}
+.buttonShare {
+    color: #374365;
+}
+.modalFooter {
+    text-align: center;
+}
+.modalFooter h6 {
+    font-weight: $special;
+}
+.modalFooter p {
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.modalFooter a {
+    color: #347C9D;
+}

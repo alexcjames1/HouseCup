@@ -9,7 +9,7 @@ export default class JoinTogether extends Component {
     render() {
         return(
                 <Section className={style.section} kind="dark" size="small">
-                    <Row>
+                    <Row className={style.rowCenter}>
 
                         <Col xs="12" sm="6">
                             <div className={style.header}>

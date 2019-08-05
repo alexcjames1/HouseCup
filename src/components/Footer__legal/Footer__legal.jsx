@@ -23,7 +23,7 @@ export default class Footer__legal extends Component {
                                         <a href="https://twitter.com/Audentio" target="_blank"><i className="mdi mdi-twitter"></i></a>
                                     </li>
                                     <li className={style.facebook}>
-                                        <a href="https://www.facebook.com/Audentio/" target="_blank"><i className="mdi mdi-facebook"></i></a>
+                                        <a href="https://www.facebook.com/Audentio/" target="_blank"><i className="mdi mdi-facebook-box"></i></a>
                                     </li>
                                     <li className={style.linkedin}>
                                         <a href="https://www.linkedin.com/company/audentio/" target="_blank"><i className="mdi mdi-linkedin"></i></a>

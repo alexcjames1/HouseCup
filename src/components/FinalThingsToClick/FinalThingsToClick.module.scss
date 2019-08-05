@@ -6,3 +6,14 @@
     font-size: $h4;
     margin-bottom: 30px;
 }
+.teamBuilding {
+    margin-bottom: 15px;
+}
+.funStuff {
+    z-index: 1;
+}
+@media (min-width: 768px) {
+    .teamBuilding {
+        margin-bottom: 0px;
+    }
+}

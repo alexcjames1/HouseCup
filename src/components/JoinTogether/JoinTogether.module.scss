@@ -1,6 +1,8 @@
 @import "../../css/theme.scss";
 
-
+.section .rowCenter{
+    align-items: center;
+}
 .subTitle {
     font-weight: 300;
 }
@@ -12,15 +14,20 @@
     color: #212121;
     font-size: $h2;
     margin: 0.5em 0;
+    line-height: 1.2em;
 }
 .content {
     color: #424242;
     font-size: $secondaryParagraph;
 }
+.media {
+    margin-top: 30px;
+}
 @media (min-width: 768px) {
     .media {
         height: 597;
         width: 888px;
+        margin-top: 0px;
     }
 }
 // .section__joinTogether .section__footer {

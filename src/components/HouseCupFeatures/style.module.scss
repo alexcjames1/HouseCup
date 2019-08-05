@@ -9,12 +9,24 @@
     text-transform: uppercase;
     border-top: 1px;
     border-style: solid;
-    border-color: #616161;
+    border-color: #d9d7d7;
+    width: 30%;
     padding: 15px 0;
 
 }
+@media (min-width: 768px) {
+    .title {
+        width: 15%;
+    }
+}
 .col {
     font-size: $h6;
+    margin: 10px 0;
+}
+@media (min-width: 768px) {
+    .col {
+        margin: 0px 0;
+    }
 }
 .boldText {
     display: inline;

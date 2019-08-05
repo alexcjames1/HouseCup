@@ -1,31 +1,29 @@
 @import "../../css/theme.scss";
 
-
-.slackCTA {
-    display: flex;
-    width: 80%;
-    margin-left: auto;
-    padding-bottom: 85px;
-    align-items: center;
-}
 .title {
     font-size: $h3;
     color: $baseFontColor;
+    margin: 0.5em 0;
 }
 .content {
-    font-size: $secondaryParagraph;
     color: $secondaryColor;
-    max-width: 90%;
+    font-size: $secondaryParagraph;
 }
 .subTitle {
-    font-weight: $normal;
-    font-size: 14px;
     color: rgba(43,41,45,0.6);
+    font-size: 14px;
 }
-.button img {
-    width: 130px;
+.footer img {
+    height: 48px;
+    width: 136px;
 }
-.mediaFigure img {
-    height: 250px;
+.mediaFigure {
     width: 250px;
+    height: 250px;
+    margin-left: -20px;
+}
+@media (min-width: 768px) {
+    .mediaFigure {
+        margin-left: 0px;
+    }
 }

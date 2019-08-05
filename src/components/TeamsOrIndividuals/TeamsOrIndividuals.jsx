@@ -3,15 +3,14 @@ import classy from '../../utils/classy';
 import style from './TeamsOrIndividuals.module.scss';
 import houseTeams from './images/house-teams.png';
 import {MediaComponent} from '../';
-import appIcon from './images/snowminer-driver-app-icon.png';
 import {Col, Row, Container } from 'react-bootstrap';
 import { Section } from '../../components';
 
-export default class LowRiskHighReturn extends Component {
+export default class TeamsOrIndividuals extends Component {
     render() {
         return(
                 <Section className={style.section} kind="dark" size="normal">
-                    <Row>
+                    <Row className={style.rowCenter}>
 
                         <Col xs="12" sm="6">
                             <div className={style.media}>
