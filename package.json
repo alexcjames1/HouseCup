@@ -9,7 +9,7 @@
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.0.1",
+    "react-scripts": "5.0.1",
     "webfontloader": "^1.6.28"
   },
   "scripts": {
@@ -36,6 +36,6 @@
   "devDependencies": {
     "css-loader": "^3.1.0",
     "style-loader": "^0.23.1",
-    "webpack-cli": "^3.3.6"
+    "webpack-cli": "^3.3.12"
   }
 }
